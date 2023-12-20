@@ -1,0 +1,438 @@
+---------------FW1-AREA-10---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.5(2)T
+        release : 
+         rommon : Bootstrap
+       hostname : FW1-AREA-10
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
+       hardware : []
+         serial : ['2048020']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------FW1-AREA-51---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.5(2)T
+        release : 
+         rommon : Bootstrap
+       hostname : FW1-AREA-51
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
+       hardware : []
+         serial : ['2048022']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------FW2-AREA-51---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.5(2)T
+        release : 
+         rommon : Bootstrap
+       hostname : FW2-AREA-51
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
+       hardware : []
+         serial : ['2048021']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R1---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R1
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048016']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R2---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R2
+         uptime : 2 hours, 25 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 25
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048017']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R3---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R3
+         uptime : 2 hours, 25 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 25
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048018']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R4---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R4
+         uptime : 2 hours, 25 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 25
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048019']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R5---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R5
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048012']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R6---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R6
+         uptime : 2 hours, 25 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 25
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048013']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R7---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R7
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048014']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------R8---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : R8
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048015']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------RL1---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : RL1
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048009']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------RL2---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : RL2
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048010']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------NBI-1---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : NBI-1
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048004']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------NBI-2---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : NBI-2
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048005']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------NKR---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : NKR
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048007']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------MSA---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : MSA
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048006']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------MLD---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : MLD
+         uptime : 2 hours, 23 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 23
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048008']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------EDGE-1---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.5(2)T
+        release : 
+         rommon : Bootstrap
+       hostname : EDGE-1
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
+       hardware : []
+         serial : ['2048023']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------EDGE-2---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.5(2)T
+        release : 
+         rommon : Bootstrap
+       hostname : EDGE-2
+         uptime : 2 hours, 24 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 2
+ uptime_minutes : 24
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
+       hardware : []
+         serial : ['2048024']
+config_register : 0x0
+    mac_address : []
+      restarted : 
