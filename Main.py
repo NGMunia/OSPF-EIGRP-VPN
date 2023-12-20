@@ -63,7 +63,6 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
                      Area_23.values(), Spokes.values()):
     c = ConnectHandler(**devices)
     c.enable()
-
     commands = ['ip access-list extended VTY_ACL',
                 'permit tcp 192.168.2.0 0.0.0.255 any eq 22',
                 'permit tcp host 192.168.11.100 any eq 22',
@@ -102,8 +101,33 @@ for devices in chain(Firewalls_A_51.values(),Spokes.values()):
 
 
 print('\n')
+rp('[cyan]----------Configuring NAT on Spoke routers---------[/cyan]')
+for devices in chain(Spokes.values()):
+    c = ConnectHandler(**devices)
+    c.enable()
+    host = c.send_command('show version',use_textfsm=True)[0]['hostname']
+    nat_out_intf = input(f'{host}{" "} NAT Outside Interface: ')
+    nat_in_intf = input(f'{host}{" "} NAT Inside Interface: ')
+    LAN_IP = input(f'{host}{" "} LAN IP address: ')
+    wildmask = input(f'{host}{" "} Wildcard Mask: ')
+
+    commands = ['ip access-list standard nat_acl',
+                'permit '+LAN_IP+' '+wildmask,
+                'interface '+nat_in_intf,
+                'ip nat inside',
+                'interface '+nat_out_intf,
+                'ip nat outside',
+                'ip nat inside source list nat_acl interface '+nat_out_intf+ ' overload',
+                ]
+    rp(c.send_config_set(commands),'\n')
+    c.save_config()
+    c.disconnect()
+
+
+
+print('\n')
 rp('[cyan]----------Configuring NTP on DMVPN network---------[/cyan]')
-for devices in chain(Firewalls_A_51.values()):
+for devices in chain(Area_51.values(), Spokes.values()):
     c = ConnectHandler(**devices)
     c.enable()
     commands = ['ip domain lookup',
