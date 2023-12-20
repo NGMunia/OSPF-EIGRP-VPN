@@ -5,12 +5,12 @@
         release : 
          rommon : Bootstrap
        hostname : FW1-AREA-10
-         uptime : 2 hours, 24 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
@@ -27,12 +27,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : FW1-AREA-51
-         uptime : 2 hours, 24 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
@@ -49,12 +49,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : FW2-AREA-51
-         uptime : 2 hours, 24 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
@@ -71,12 +71,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R1
-         uptime : 2 hours, 24 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -93,12 +93,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R2
-         uptime : 2 hours, 25 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 25
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -115,12 +115,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R3
-         uptime : 2 hours, 25 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 25
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -137,16 +137,38 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R4
-         uptime : 2 hours, 25 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 25
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048019']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------LAN-SW---------------
+
+ software_image : I86BI_LINUXL2-ADVENTERPRISEK9-M
+        version : 15.2(CML_NIGHTLY_20180510)FLO_DSGS7
+        release : 
+         rommon : Bootstrap
+       hostname : LAN-SW
+         uptime : 6 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 
+ uptime_minutes : 6
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_linux_l2-adventerprisek9-ms.SSA.high_
+       hardware : []
+         serial : ['2048011']
 config_register : 0x0
     mac_address : []
       restarted : 
@@ -159,12 +181,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R5
-         uptime : 2 hours, 24 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -181,12 +203,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R6
-         uptime : 2 hours, 25 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 25
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -203,12 +225,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R7
-         uptime : 2 hours, 24 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -225,12 +247,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R8
-         uptime : 2 hours, 24 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -247,12 +269,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : RL1
-         uptime : 2 hours, 23 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -269,12 +291,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : RL2
-         uptime : 2 hours, 23 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -291,12 +313,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NBI-1
-         uptime : 2 hours, 23 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -313,12 +335,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NBI-2
-         uptime : 2 hours, 23 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -335,12 +357,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NKR
-         uptime : 2 hours, 23 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -357,12 +379,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : MSA
-         uptime : 2 hours, 23 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -379,12 +401,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : MLD
-         uptime : 2 hours, 23 minutes
+         uptime : 5 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 23
+   uptime_hours : 
+ uptime_minutes : 5
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -401,12 +423,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : EDGE-1
-         uptime : 2 hours, 24 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
@@ -423,12 +445,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : EDGE-2
-         uptime : 2 hours, 24 minutes
+         uptime : 6 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 2
- uptime_minutes : 24
+   uptime_hours : 
+ uptime_minutes : 6
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
