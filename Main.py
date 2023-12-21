@@ -143,6 +143,23 @@ for devices in chain(Area_51.values(), Spokes.values()):
 
 
 print('\n')
+rp('[cyan]----------Configuring NTP OSPF routers---------[/cyan]')
+for devices in chain(Firewall_A_10.values(), Area_0.values(), Area_10.values(), Area_23.values(), 
+                     Firewalls_A_51.values()):
+    c = ConnectHandler(**devices)
+    c.enable()
+    commands = ['ntp server 51.0.0.3 prefer',
+                'ntp server 51.0.0.4',
+                'clock timezone UTC +3',
+                'service timestamps log datetime localtime year',
+                'service timestamps debug datetime localtime year']
+    rp(c.send_config_set(commands),'\n')
+    c.save_config()
+    c.disconnect()
+
+
+
+print('\n')
 rp('[cyan]----------Configuring MOTD banner---------[/cyan]')
 for devices in chain(Firewall_A_10.values(),Firewalls_A_51.values(), Area_0.values(),Area_10.values(),
                      Area_23.values(),Area_51.values(), Spokes.values()):
@@ -174,6 +191,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
     rp(c.send_config_set(commands),'\n')
     c.save_config()
     c.disconnect()
+
 
 
 
