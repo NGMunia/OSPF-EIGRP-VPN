@@ -181,7 +181,7 @@ print('\n')
 rp('[cyan]----------Verifying OSPF routes----------[/cyan]')
 filepath = input('Input OSPF backup filepath: ')
 for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.values(),
-                     Area_10.values(),Area_23.values()):
+                     Area_10.values(),Area_23.values(), Area_51.values()):
     c = ConnectHandler(**devices)
     c.enable()
     host = c.send_command('show version',use_textfsm=True)[0]['hostname']
@@ -196,7 +196,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
 print('\n')
 rp('[cyan]----------Verifying EIGRP routes----------[/cyan]')
 filepath = input(f'Input EIGRP backup filepath: ')
-for devices in chain(Firewalls_A_51.values(),Spokes.values()):
+for devices in chain(Area_51.values(),Spokes.values()):
     c = ConnectHandler(**devices)
     c.enable()
     host = c.send_command('show version',use_textfsm=True)[0]['hostname']
