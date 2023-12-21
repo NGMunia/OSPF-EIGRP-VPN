@@ -19,7 +19,7 @@ for devices in Spokes.values():
 print('\n')
 rp('[cyan]----------Configuring SNMP on all devices----------[/cyan]')
 for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.values(),
-                     Area_10.values(),Area_23.values(), Spokes.values()):
+                     Area_10.values(),Area_23.values(), Spokes.values(),Area_51.values()):
     c = ConnectHandler(**devices)
     c.enable()
     commands = ['ip access-list standard SNMP-ACL',
@@ -79,7 +79,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
 
 print('\n')
 rp('[cyan]----------Configuring Cryptography on DMVPN Network---------[/cyan]')
-secret_key = input('Input pre-shared key: ')
+secret_key = input('Input pre-shared Secret key: ')
 for devices in chain(Area_51.values(),Spokes.values()):
     c = ConnectHandler(**devices)
     c.enable() 
@@ -102,7 +102,7 @@ for devices in chain(Area_51.values(),Spokes.values()):
 
 print('\n')
 rp('[cyan]----------Configuring NAT on Spoke routers---------[/cyan]')
-for devices in chain(Spokes.values()):
+for devices in Spokes.values():
     c = ConnectHandler(**devices)
     c.enable()
     host = c.send_command('show version',use_textfsm=True)[0]['hostname']
@@ -166,7 +166,7 @@ for devices in chain(Firewall_A_10.values(),Firewalls_A_51.values(), Area_0.valu
 print('\n')
 rp('[cyan]----------Configuring Syslog---------[/cyan]')
 for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.values(),
-                     Area_10.values(),Area_23.values(),Spokes.values()):
+                     Area_10.values(),Area_23.values(),Spokes.values(),Area_51.values()):
     c = ConnectHandler(**devices)
     c.enable()
     commands = ['logging monitor informational',
