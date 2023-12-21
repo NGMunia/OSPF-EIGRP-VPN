@@ -58,7 +58,7 @@ for devices in chain( Spokes.values(), Area_23.values()):
 
 
 print('\n')
-rp('[cyan]----------Configuring Access-class restricting remote connection to 192.168.2.0/24----------[/cyan]')
+rp('[cyan]----------Configuring Access-class restricting remote connection to 192.168.2.0/24 and 192.168.11.0/32----------[/cyan]')
 for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.values(),Area_10.values(),
                      Area_23.values(), Spokes.values()):
     c = ConnectHandler(**devices)
@@ -80,7 +80,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
 print('\n')
 rp('[cyan]----------Configuring Cryptography on DMVPN Network---------[/cyan]')
 secret_key = input('Input pre-shared key: ')
-for devices in chain(Firewalls_A_51.values(),Spokes.values()):
+for devices in chain(Area_51.values(),Spokes.values()):
     c = ConnectHandler(**devices)
     c.enable() 
     commands = ['crypto isakmp policy 100',
