@@ -190,7 +190,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
                 'logging host 192.168.10.254']
     rp(c.send_config_set(commands),'\n')
     c.save_config()
-#     c.disconnect()
+    c.disconnect()
 
 
 
