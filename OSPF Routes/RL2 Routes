@@ -10,4 +10,4 @@ Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
 
 Gateway of last resort is 10.0.23.5 to network 0.0.0.0
 
-O*IA  0.0.0.0/0 [110/10001] via 10.0.23.5, 00:06:42, Ethernet0/1
+O*IA  0.0.0.0/0 [110/10001] via 10.0.23.5, 00:43:39, Ethernet0/1
