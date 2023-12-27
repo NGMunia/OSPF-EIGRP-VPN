@@ -207,7 +207,7 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
     with open (f'{filepath}/{host}{" "}Routes','w') as f:
         f.write(output)
         c.disconnect()
-    rp(f'{host}{" "}Routes have been documented!!')
+    rp(f'{host}{" "} OSPF Routes have been documented!!')
 
 
 
@@ -222,7 +222,7 @@ for devices in chain(Area_51.values(),Spokes.values()):
     with open (f'{filepath}/{host}{" "}Routes','w') as f:
         f.write(output)
         c.disconnect()
-    rp(f'{host}{" "}Routes have been documented!!')
+    rp(f'{host}{" "} EIGRP Routes have been documented!!')
 
 
 

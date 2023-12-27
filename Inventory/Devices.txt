@@ -5,19 +5,19 @@
         release : 
          rommon : Bootstrap
        hostname : FW1-AREA-10
-         uptime : 5 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
          serial : ['2048020']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:05 UTC Wed Dec 27 2023
 
 
 ---------------FW1-AREA-51---------------
@@ -27,19 +27,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : FW1-AREA-51
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
          serial : ['2048022']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:30 UTC Wed Dec 27 2023
 
 
 ---------------FW2-AREA-51---------------
@@ -49,19 +49,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : FW2-AREA-51
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
          serial : ['2048021']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:28 UTC Wed Dec 27 2023
 
 
 ---------------R1---------------
@@ -71,19 +71,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R1
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048016']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:08 UTC Wed Dec 27 2023
 
 
 ---------------R2---------------
@@ -93,19 +93,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R2
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048017']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:09 UTC Wed Dec 27 2023
 
 
 ---------------R3---------------
@@ -115,19 +115,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R3
-         uptime : 5 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048018']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:12 UTC Wed Dec 27 2023
 
 
 ---------------R4---------------
@@ -137,19 +137,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R4
-         uptime : 5 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048019']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:15 UTC Wed Dec 27 2023
 
 
 ---------------LAN-SW---------------
@@ -159,12 +159,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : LAN-SW
-         uptime : 6 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_linux_l2-adventerprisek9-ms.SSA.high_
        hardware : []
@@ -181,19 +181,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R5
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048012']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:06 UTC Wed Dec 27 2023
 
 
 ---------------R6---------------
@@ -203,19 +203,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R6
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048013']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:13 UTC Wed Dec 27 2023
 
 
 ---------------R7---------------
@@ -225,19 +225,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R7
-         uptime : 5 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048014']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:21 UTC Wed Dec 27 2023
 
 
 ---------------R8---------------
@@ -247,12 +247,12 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : R8
-         uptime : 5 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
@@ -269,19 +269,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : RL1
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048009']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:23 UTC Wed Dec 27 2023
 
 
 ---------------RL2---------------
@@ -291,19 +291,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : RL2
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048010']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:27 UTC Wed Dec 27 2023
 
 
 ---------------NBI-1---------------
@@ -313,19 +313,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NBI-1
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048004']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:59 UTC Wed Dec 27 2023
 
 
 ---------------NBI-2---------------
@@ -335,19 +335,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NBI-2
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048005']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:59 UTC Wed Dec 27 2023
 
 
 ---------------NKR---------------
@@ -357,19 +357,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : NKR
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048007']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:59 UTC Wed Dec 27 2023
 
 
 ---------------MSA---------------
@@ -379,19 +379,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : MSA
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048006']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:58 UTC Wed Dec 27 2023
 
 
 ---------------MLD---------------
@@ -401,19 +401,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : MLD
-         uptime : 5 minutes
+         uptime : 1 hour, 29 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 5
+   uptime_hours : 1
+ uptime_minutes : 29
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
        hardware : []
          serial : ['2048008']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:58 UTC Wed Dec 27 2023
 
 
 ---------------EDGE-1---------------
@@ -423,19 +423,19 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : EDGE-1
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
          serial : ['2048023']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:31 UTC Wed Dec 27 2023
 
 
 ---------------EDGE-2---------------
@@ -445,16 +445,16 @@ config_register : 0x0
         release : 
          rommon : Bootstrap
        hostname : EDGE-2
-         uptime : 6 minutes
+         uptime : 1 hour, 30 minutes
    uptime_years : 
    uptime_weeks : 
     uptime_days : 
-   uptime_hours : 
- uptime_minutes : 6
+   uptime_hours : 1
+ uptime_minutes : 30
   reload_reason : Unknown reason
   running_image : /opt/gns3/images/IOU/i86bi-linux-l3-adventerprisek9-ms.155-2.T.
        hardware : []
          serial : ['2048024']
 config_register : 0x0
     mac_address : []
-      restarted : 
+      restarted : 08:24:33 UTC Wed Dec 27 2023

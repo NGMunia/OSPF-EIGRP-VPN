@@ -125,13 +125,13 @@ Area_23 = {
          }
 
 Firewalls_A_51 =    {
-          'FW-1': {
+          'FW-1':  {
                       'device_type':'cisco_ios',
                       'username': 'Automation',
                       'secret': 'cisco123',
                       'password': 'cisco123',
                       'ip':'51.0.0.1',
-                    },
+                   },
           'FW-2':  {
                       'device_type':'cisco_ios',
                       'username': 'Automation',
@@ -149,7 +149,7 @@ Area_51 = {
                       'password': 'cisco123',
                       'ip':'51.0.0.3',
                     },
-          'Edge-2':  {
+          'Edge-2': {
                       'device_type':'cisco_ios',
                       'username': 'Automation',
                       'secret': 'cisco123',
@@ -157,8 +157,8 @@ Area_51 = {
                       'ip':'51.0.0.4'
                     }
           }
-Switches = {
-          'SW-AREA-23': {
+Switches= {
+      'SW-AREA-23': {
                       'device_type':'cisco_ios',
                       'username': 'Automation',
                       'secret': 'cisco123',
