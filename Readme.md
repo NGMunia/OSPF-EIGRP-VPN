@@ -31,7 +31,19 @@ Security:
 
     • EIGRP: Configured with MD5 authentication.
     • OSPF: Configured with MD5 authentication.*
-    • Firewalls: Act as zone-based firewalls, with specific rules for traffic.
+    • Firewalls: Act as zone-based firewalls for stateful inspection, with specific rules for traffic.
+        - FW-Area-10 
+            - Ingress Traffic:
+                - RDS to windows server 192.168.10.254
+                - SNMP-traps,SYSLOG,DHCP and Netflow traffic
+            - Egress traffic:
+                - All UDP, TCP and ICMP traffic
+        - FW-AREA-51
+            - Ingress traffic
+                - All traffic originating from spokes and Hubs
+            - Egress traffic
+                - All UDP, TCP and ICMP traffic
+                
     • CoPP: Configured on Backbone routers.
     • Edge routers: Disable CDP and LLDP on internet-facing interfaces.
     • IPsec: Configured in conjunction with DMVPN for enhanced security.
