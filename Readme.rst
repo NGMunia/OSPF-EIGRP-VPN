@@ -86,5 +86,5 @@
    * EEM applets have been configured to automate back-up of running configurations.
       
 
-.. figure:: /Images/Topology.png
+.. figure:: /home/munia/Campus/Images/Topology.png
    :align: center
