@@ -7,7 +7,7 @@ CAMPUS NETWORK WITH DMVPN
 ==========================================
 
 
-.. figure:: Docs/Images/Topology.png
+.. figure:: /Images/Topology.png
    :align: center
 
    *Network Topology Diagram*
