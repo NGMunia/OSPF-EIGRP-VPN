@@ -2,7 +2,7 @@
 **CAMPUS NETWORK**
 ====================
 
-*EIGRP*
+EIGRP
 ----------------
    * Stub Router Configuration: All spoke routers are configured as stub routers, limiting 
      the query scope in the network.
@@ -17,7 +17,7 @@
      EIGRP traffic.
    * EIGRP add-path feature is used to advertise redundant links to spoke routers.
 
-*OSPF*
+OSPF
 -----------------
    * Area 10: Configured as a totally stub area, propagating only a default type 3 LSA.
    * Area 10: Configured as an NSSA, receiving type 3 IA LSAs and Type 7 LSAs for the default route.
@@ -29,7 +29,7 @@
    * Reference bandwidth for all routers used in OSPF cost calculation is 100Gbps
 
 
-*Security*
+Security
 -------------------
    * EIGRP: Configured with MD5 authentication.
    * OSPF: Configured with MD5 authentication.*
@@ -57,7 +57,7 @@
    * Remote access via SSH can only be accessed via 192.168.2.0/24 network.
 
 
-*IP Services*
+IP Services
 -------------------
    * DHCP Server: windows-server serves as the DHCP/DNS server.
    * QoS: Configured on routers facing end devices to block torrent sites and police social media sites to 1Mbps.
@@ -68,7 +68,7 @@
 
 
 
-*Network Assurance*
+Network Assurance
 ---------------------
    * SNMP: Configured on all routers for proactive monitoring using PRTG installed on windows server.
    * SPAN and RSPAN: Configured on Edge switches to inspect all traffic entering from and leaving towards
@@ -79,7 +79,7 @@
 
 
 
-*Network Automation*
+*etwork Automation
 -----------------------
    * Python Netmiko: Installed on Ubuntu server to automate repetitive tasks related to 
      SNMP, NetFlow and DHCP.
