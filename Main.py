@@ -194,6 +194,19 @@ for devices in chain(Firewall_A_10.values(), Firewalls_A_51.values(), Area_0.val
 
 
 
+print('\n')
+rp('[cyan]----------Disabling LLD and CDP on internet facing Interfaces on Spokes---------[/cyan]')
+for devices in (Spokes.values()):
+    c = ConnectHandler(**devices)
+    c.enable()
+    commands = ['interface e0/1',
+                'no cdp enable',
+                'no lldp transmit']
+    rp(c.send_config_set(commands),'\n')
+    c.save_config()
+    c.disconnect()
+
+
 
 print('\n')    
 rp('[cyan]----------Verifying OSPF routes----------[/cyan]')

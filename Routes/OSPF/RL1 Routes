@@ -8,12 +8,6 @@ Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
        a - application route
        + - replicated route, % - next hop override, p - overrides from PfR
 
-Gateway of last resort is 32.19.86.2 to network 0.0.0.0
+Gateway of last resort is 10.0.23.1 to network 0.0.0.0
 
-      10.0.0.0/8 is variably subnetted, 3 subnets, 2 masks
-D        10.1.60.0/24 [90/522240] via 172.17.0.5, 00:43:50, Tunnel20
-                      [90/522240] via 172.16.0.5, 00:43:50, Tunnel10
-D EX  192.168.2.0/23 [170/10240] via 172.17.0.1, 00:43:45, Tunnel20
-                     [170/10240] via 172.16.0.1, 00:43:45, Tunnel10
-D EX  192.168.10.0/23 [170/10240] via 172.17.0.1, 00:43:45, Tunnel20
-                      [170/10240] via 172.16.0.1, 00:43:45, Tunnel10
+O*IA  0.0.0.0/0 [110/10001] via 10.0.23.1, 00:25:14, Ethernet0/1
