@@ -110,10 +110,10 @@ python dependecies:
 --------------------
 
 .. code-block:: bash
+
    pip install netmiko
    pip install rich
-
-      
+  
 
 
    
