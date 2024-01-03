@@ -83,7 +83,7 @@ Security
 
   * FW-Area-10 
    * Ingress Traffic:
-    * RDS to windows server 192.168.10.254
+    * Remote desktop connection to windows server 192.168.10.254
     * SNMP-traps,SYSLOG,DHCP and Netflow traffic  
    * Egress traffic:
     * All UDP, TCP and ICMP traffic
@@ -100,7 +100,7 @@ Security
 * Remote access via SSH can only be accessed via 192.168.2.0/24 network.
 
 .. code-block:: bash
-  
+
   hub config snippet:
   --------------------
    interface Tunnel10
