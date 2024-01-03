@@ -101,6 +101,8 @@ Security
 
 .. code-block:: bash
   
+  hub config snippet:
+  --------------------
    interface Tunnel10
     ip address 172.16.0.1 255.255.255.0
     no ip redirects
