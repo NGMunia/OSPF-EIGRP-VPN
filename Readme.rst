@@ -66,11 +66,11 @@ Security
    * Egress traffic:
       * All UDP, TCP and ICMP traffic
 
-   * FW-AREA-51
+  * FW-AREA-51
     * Ingress traffic
-      * All traffic originating from spokes and Hubs
+     * All traffic originating from spokes and Hubs
     * Egress traffic
-      * All UDP, TCP and ICMP traffic
+     * All UDP, TCP and ICMP traffic
                 
 * CoPP: Configured on Backbone routers.
 * Edge routers: Disable CDP and LLDP on internet-facing interfaces.
