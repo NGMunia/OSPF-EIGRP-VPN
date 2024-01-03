@@ -35,6 +35,7 @@ OSPF
 * ASBR (R7): Redistributes EIGRP prefixes into OSPF and redistributes OSPF routes into EIGRP-20.
 
 .. code-block:: bash
+
    router eigrp 20
    network 10.1.1.0 0.0.0.3
    redistribute ospf 1 metric 100000 1 255 1 1500 route-map OSPF-to-EIGRP
@@ -57,18 +58,16 @@ Security
 * EIGRP: Configured with MD5 authentication.
 * OSPF: Configured with MD5 authentication.*
 * Firewalls act as zone-based firewalls for stateful inspection, with specific rules for traffic.
-   * FW-Area-10 
-      * Ingress Traffic:
-
-        * RDS to windows server 192.168.10.254
-        * SNMP-traps,SYSLOG,DHCP and Netflow traffic
+  * FW-Area-10 
+    * Ingress Traffic:
+      * RDS to windows server 192.168.10.254
+      * SNMP-traps,SYSLOG,DHCP and Netflow traffic
         
       * Egress traffic:
-
         * All UDP, TCP and ICMP traffic
-   * FW-AREA-51
-      * Ingress traffic
 
+   * FW-AREA-51
+    *  Ingress traffic
         * All traffic originating from spokes and Hubs
       * Egress traffic
 
