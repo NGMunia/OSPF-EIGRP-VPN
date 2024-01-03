@@ -79,7 +79,6 @@ OSPF
 Security
 -------------------
 * EIGRP: Configured with MD5 authentication.
-* OSPF: Configured with MD5 authentication.*
 * Firewalls act as zone-based firewalls for stateful inspection, with specific rules for traffic.
 
   * FW-Area-10 
@@ -99,6 +98,23 @@ Security
 * Edge routers: Disable CDP and LLDP on internet-facing interfaces.
 * IPsec: Configured in conjunction with DMVPN for enhanced security.
 * Remote access via SSH can only be accessed via 192.168.2.0/24 network.
+
+.. code-block:: bash
+  
+   interface Tunnel10
+    ip address 172.16.0.1 255.255.255.0
+    no ip redirects
+    ip mtu 1400
+    ip nhrp authentication gns3vpn
+    ip nhrp map multicast dynamic
+    ip nhrp network-id 10
+    ip tcp adjust-mss 1360
+    delay 1  
+    tunnel source Ethernet0/2
+    tunnel mode gre multipoint
+    tunnel key 10
+    tunnel protection ipsec profile Crypt_profile
+
 
 
 IP Services
