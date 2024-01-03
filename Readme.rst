@@ -20,6 +20,29 @@ EIGRP
   EIGRP traffic.
 * EIGRP add-path feature is used to advertise redundant links to spoke routers.
 
+.. code-block:: bash
+
+   router eigrp EIGRP
+   !        
+     address-family ipv4 unicast autonomous-system 100
+   !       
+     af-interface Tunnel10
+      authentication mode md5
+      authentication key-chain EIGRP-KEY
+      bandwidth-percent 25
+      no next-hop-self
+      add-path 2
+      no split-horizon
+     exit-af-interface
+   !       
+     topology base
+      redistribute ospf 1 metric 100000 1 255 1 1500 route-map OSPF-to-EIGRP-MAP
+     exit-af-topology
+     network 172.16.0.0 0.0.0.255
+     metric weights 0 0 0 1 0 0 0
+   exit-address-family
+
+
 OSPF
 -----------------
 * Area 23: Configured as a totally stub area, propagating only a default type 3 LSA.
