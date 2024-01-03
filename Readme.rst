@@ -64,13 +64,13 @@ Security
     * RDS to windows server 192.168.10.254
     * SNMP-traps,SYSLOG,DHCP and Netflow traffic  
    * Egress traffic:
-      * All UDP, TCP and ICMP traffic
+    * All UDP, TCP and ICMP traffic
 
   * FW-AREA-51
-    * Ingress traffic
-     * All traffic originating from spokes and Hubs
-    * Egress traffic
-     * All UDP, TCP and ICMP traffic
+   * Ingress traffic
+    * All traffic originating from spokes and Hubs
+   * Egress traffic
+    * All UDP, TCP and ICMP traffic
                 
 * CoPP: Configured on Backbone routers.
 * Edge routers: Disable CDP and LLDP on internet-facing interfaces.
