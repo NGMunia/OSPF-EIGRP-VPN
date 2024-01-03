@@ -58,6 +58,7 @@ Security
 * EIGRP: Configured with MD5 authentication.
 * OSPF: Configured with MD5 authentication.*
 * Firewalls act as zone-based firewalls for stateful inspection, with specific rules for traffic.
+
   * FW-Area-10 
    * Ingress Traffic:
     * RDS to windows server 192.168.10.254
