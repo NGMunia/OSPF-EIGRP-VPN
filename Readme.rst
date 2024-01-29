@@ -1,5 +1,5 @@
 
-**CAMPUS NETWORK**
+**OSPF-EIGRP-VPN*
 ====================
 
 .. figure:: /Inventory/Topology.png
