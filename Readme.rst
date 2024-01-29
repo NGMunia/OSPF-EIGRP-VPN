@@ -1,5 +1,5 @@
 
-**OSPF-EIGRP-VPN*
+**OSPF-EIGRP-VPN**
 ====================
 
 .. figure:: /Inventory/Topology.png
